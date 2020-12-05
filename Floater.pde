@@ -6,7 +6,7 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
   protected int myColor;   
   protected double myCenterX, myCenterY; //holds center coordinates   
   protected double myXspeed, myYspeed; //holds the speed of travel in the x and y directions   
-  protected double myPointDirection; //holds current direction the ship is pointing in degrees    
+  protected double myPointDirection; //holds current direction the ship is pointing in degrees
 
   //Accelerates the floater in the direction it is pointing (myPointDirection)   
   public void accelerate (double dAmount)   
@@ -73,4 +73,4 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
     rotate(-1*dRadians);
     translate(-1*(float)myCenterX, -1*(float)myCenterY);
   }   
-} 
+}
