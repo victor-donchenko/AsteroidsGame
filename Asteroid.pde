@@ -44,6 +44,14 @@ class Asteroid extends Floater {
     return radius;
   }
   
+  public void set_CenterX(double new_CenterX) {
+    myCenterX = new_CenterX;
+  }
+  
+  public void set_CenterY(double new_CenterY) {
+    myCenterY = new_CenterY;
+  }
+  
   public void move() {
     super.move();
     myPointDirection += turn_speed;

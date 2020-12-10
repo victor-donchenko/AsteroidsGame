@@ -49,4 +49,8 @@ class Spaceship extends Floater {
     return myCenterY + xCorners[index] * Math.sin(myPointDirection)
                      - yCorners[index] * Math.cos(myPointDirection);
   }
+  
+  public double get_PointDirection() {
+    return myPointDirection;
+  }
 }
